@@ -1,5 +1,4 @@
 import Country from '../components/Country'
-import Weather from '../components/Weather'
 
 const CountriesList = ({ list, searchCountries }) => {
   const countries = list.filter(country => {
